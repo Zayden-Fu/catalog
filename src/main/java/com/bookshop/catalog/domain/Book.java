@@ -9,6 +9,9 @@ import javax.validation.constraints.Positive;
  * User: fuzongyang
  * Date: 2023/4/7
  * Time: 14:26
+ * 
+ * init
+ *
  */
 public record Book(
         @NotBlank(message = "The book ISBN must be defined.")
